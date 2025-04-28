@@ -1,0 +1,86 @@
+
+import { Job } from "@/hooks/useJobs";
+
+// Sample job data
+export const sampleJobs: Job[] = [
+  {
+    id: "1",
+    title: "Frontend Developer",
+    company_name: "TechSolutions Inc.",
+    location: "San Francisco, CA",
+    description:
+      "We're looking for a Frontend Developer proficient in React, TypeScript, and modern CSS frameworks. You'll be responsible for building responsive user interfaces and implementing design systems.",
+    salary_min: 90000,
+    salary_max: 120000,
+    type: "full-time",
+    contact: "careers@techsolutions.com | (555) 123-4567",
+    created_at: new Date(2025, 3, 15).toISOString(),
+    deadline: new Date(2025, 5, 1).toISOString(),
+    experience: "2-3 yrs",
+    skills: ["React", "TypeScript", "CSS"],
+  },
+  {
+    id: "2",
+    title: "UX/UI Designer",
+    company_name: "CreativeMinds Studio",
+    location: "Remote",
+    description:
+      "Join our creative team to design beautiful, intuitive user experiences for web and mobile applications. You should have strong portfolio showcasing your design process and expertise in Figma.",
+    salary_min: 80000,
+    salary_max: 110000,
+    type: "full-time",
+    contact: "jobs@creativeminds.com | (555) 987-6543",
+    created_at: new Date(2025, 3, 10).toISOString(),
+    deadline: new Date(2025, 4, 20).toISOString(),
+    experience: "3-5 yrs",
+    skills: ["Figma", "UI/UX", "Design"],
+  },
+  {
+    id: "3",
+    title: "Backend Engineer",
+    company_name: "DataFlow Systems",
+    location: "Austin, TX",
+    description:
+      "We need a skilled Backend Engineer to develop and maintain our API services. Experience with Node.js, Python, and database optimization is required. You'll work closely with our infrastructure team.",
+    salary_min: 100000,
+    salary_max: 140000,
+    type: "full-time",
+    contact: "hr@dataflow.tech | (555) 456-7890",
+    created_at: new Date(2025, 3, 8).toISOString(),
+    deadline: new Date(2025, 4, 15).toISOString(),
+    experience: "5+ yrs",
+    skills: ["Node.js", "Python", "Databases"],
+  },
+  {
+    id: "4",
+    title: "Content Writer",
+    company_name: "WordCraft Media",
+    location: "Chicago, IL",
+    description:
+      "Looking for a talented Content Writer to create engaging articles, blog posts, and marketing copy. Strong research skills and the ability to write for different audiences are essential.",
+    salary_min: 60000,
+    salary_max: 80000,
+    type: "part-time",
+    contact: "writers@wordcraft.com | (555) 234-5678",
+    created_at: new Date(2025, 3, 12).toISOString(),
+    deadline: new Date(2025, 4, 25).toISOString(),
+    experience: "1-2 yrs",
+    skills: ["Writing", "Research", "Editing"],
+  },
+  {
+    id: "5",
+    title: "Mobile App Developer",
+    company_name: "AppWorks Solutions",
+    location: "Seattle, WA",
+    description:
+      "We're seeking an experienced Mobile Developer to build and maintain iOS and Android applications. Proficiency in React Native or Flutter is preferred. You'll be responsible for the full development lifecycle.",
+    salary_min: 95000,
+    salary_max: 130000,
+    type: "full-time",
+    contact: "team@appworks.dev | (555) 345-6789",
+    created_at: new Date(2025, 3, 5).toISOString(),
+    deadline: new Date(2025, 4, 30).toISOString(),
+    experience: "3-5 yrs",
+    skills: ["React Native", "Flutter", "Mobile"],
+  },
+];
